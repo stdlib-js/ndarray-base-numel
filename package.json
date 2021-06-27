@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/ndarray-base-numel",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Return the number of elements in an array.",
   "license": "Apache-2.0",
   "author": {
