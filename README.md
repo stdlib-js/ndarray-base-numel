@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import numel from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-numel@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/ndarray-base-numel/tags). For example,
+
+```javascript
 import numel from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-numel@v0.1.1-deno/mod.js';
 ```
 
@@ -86,7 +91,7 @@ var n = numel( [ 3, 2, 3 ] );
 
 ```javascript
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-discrete-uniform@deno/mod.js';
-import numel from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-numel@v0.1.1-deno/mod.js';
+import numel from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-numel@deno/mod.js';
 
 var shape;
 var n;
