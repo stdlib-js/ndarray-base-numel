@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import numel from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-numel@deno/mod.js';
+import numel from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-numel@v0.2.1-deno/mod.js';
 ```
 
 #### numel( shape )
@@ -86,7 +86,7 @@ var n = numel( [ 3, 2, 3 ] );
 
 ```javascript
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-discrete-uniform@deno/mod.js';
-import numel from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-numel@deno/mod.js';
+import numel from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-numel@v0.2.1-deno/mod.js';
 
 var shape;
 var n;
