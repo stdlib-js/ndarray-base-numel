@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import numel from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-numel@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/ndarray-base-numel/tags). For example,
+
+```javascript
 import numel from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-numel@v0.2.3-esm/index.mjs';
 ```
 
@@ -91,7 +96,7 @@ var n = numel( [ 3, 2, 3 ] );
 <script type="module">
 
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-discrete-uniform@esm/index.mjs';
-import numel from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-numel@v0.2.3-esm/index.mjs';
+import numel from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-numel@esm/index.mjs';
 
 var shape;
 var n;
