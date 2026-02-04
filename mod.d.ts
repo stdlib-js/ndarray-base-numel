@@ -1,7 +1,7 @@
-/**
+/*
 * @license Apache-2.0
 *
-* Copyright (c) 2018 The Stdlib Authors.
+* Copyright (c) 2021 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -16,37 +16,25 @@
 * limitations under the License.
 */
 
-'use strict';
+// TypeScript Version: 4.1
 
-// MAIN //
+/// <reference types="https://cdn.jsdelivr.net/gh/stdlib-js/types@main/index.d.ts"/>
+
+import { ArrayLike } from '@stdlib/types/array';
 
 /**
 * Returns the number of elements in an array.
 *
-* @param {(NonNegativeIntegerArray|EmptyArray)} shape - array shape
-* @returns {NonNegativeInteger} number of elements
+* @param shape - array shape
+* @returns number of elements
 *
 * @example
 * var n = numel( [ 3, 3, 3 ] );
 * // returns 27
 */
-function numel( shape ) {
-	var ndims;
-	var n;
-	var i;
-
-	ndims = shape.length;
-	if ( ndims === 0 ) {
-		return 0;
-	}
-	n = 1;
-	for ( i = 0; i < ndims; i++ ) {
-		n *= shape[ i ];
-	}
-	return n;
-}
+declare function numel( shape: ArrayLike<number> ): number;
 
 
 // EXPORTS //
 
-module.exports = numel;
+export = numel;
